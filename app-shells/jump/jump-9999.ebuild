@@ -6,12 +6,11 @@ inherit go-module git-r3
 
 DESCRIPTION="Jump helps you navigate faster by learning your habits"
 HOMEPAGE="https://github.com/gsamokovarov/jump"
-
-EGIT_REPO_URI="https://github.com/gsamokovarov/jump.git"
-
 LICENSE="MIT"
 SLOT="0"
 IUSE=""
+
+EGIT_REPO_URI="https://github.com/gsamokovarov/jump.git"
 
 src_unpack() {
 	git-r3_src_unpack
