@@ -6,11 +6,13 @@ inherit go-module git-r3
 
 DESCRIPTION="Terminal file manager written in Go"
 HOMEPAGE="https://github.com/gokcehan/lf"
+
+EGIT_REPO_URI="https://github.com/gokcehan/lf.git"
+
 LICENSE="MIT"
 SLOT="0"
 IUSE=""
-
-EGIT_REPO_URI="https://github.com/gokcehan/lf.git"
+KEYWORDS="~amd64"
 
 src_unpack() {
 	git-r3_src_unpack
